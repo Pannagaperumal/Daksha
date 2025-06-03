@@ -33,15 +33,6 @@ export default {
           900: '#713f12',
         },
       },
-      transitionTimingFunction: {
-        'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
-      },
-      animation: {
-        'fade-in': 'fadeIn 0.6s ease-out',
-        'slide-up': 'slideUp 0.6s ease-out',
-        'slide-in': 'slideIn 0.6s ease-out',
-        'scale': 'scale 0.3s ease-out',
-      },
     },
   },
   plugins: [],
