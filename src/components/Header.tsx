@@ -23,8 +23,8 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center hover-lift">
-            <Scale className="h-8 w-8 text-saffron-500" />
-            <span className="ml-2 text-2xl font-semibold text-white font-devanagari">दक्ष</span>
+            <Scale className="h-8 w-8 text-gold-500" />
+            <span className="ml-2 text-2xl font-semibold text-white">Daksha</span>
           </div>
           
           <nav className="hidden md:flex space-x-8">
@@ -32,14 +32,14 @@ const Header = () => {
               <a 
                 key={item} 
                 href={`#${item.toLowerCase()}`}
-                className="text-white/90 hover:text-saffron-400 transition-all duration-300 font-medium hover-lift"
+                className="text-white/90 hover:text-gold-400 transition-all duration-300 font-medium hover-lift"
               >
                 {item}
               </a>
             ))}
             <a 
               href="#demo" 
-              className="px-4 py-2 text-peacock-900 bg-saffron-400 hover:bg-saffron-500 transition-all duration-300 rounded-md font-medium hover-lift"
+              className="px-4 py-2 text-navy-900 bg-gold-400 hover:bg-gold-500 transition-all duration-300 rounded-md font-medium hover-lift"
             >
               Try Free
             </a>
@@ -59,7 +59,7 @@ const Header = () => {
               <a 
                 key={item} 
                 href={`#${item.toLowerCase()}`}
-                className="block text-white/90 hover:text-saffron-400 transition-all duration-300 font-medium py-2"
+                className="block text-white/90 hover:text-gold-400 transition-all duration-300 font-medium py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
@@ -68,7 +68,7 @@ const Header = () => {
             ))}
             <a 
               href="#demo" 
-              className="block px-4 py-2 text-peacock-900 bg-saffron-400 hover:bg-saffron-500 transition-all duration-300 rounded-md font-medium text-center mt-4 hover-lift"
+              className="block px-4 py-2 text-navy-900 bg-gold-400 hover:bg-gold-500 transition-all duration-300 rounded-md font-medium text-center mt-4 hover-lift"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Try Free
