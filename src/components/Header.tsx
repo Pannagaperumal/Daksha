@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center hover-lift">
             <Scale className="h-8 w-8 text-saffron-500" />
-            <span className="ml-2 text-2xl font-semibold text-white font-devanagari">Daksha</span>
+            <span className="ml-2 text-2xl font-semibold text-white font-devanagari">दक्ष</span>
           </div>
           
           <nav className="hidden md:flex space-x-8">
